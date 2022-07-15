@@ -1,6 +1,23 @@
 # Introduction 
 Complainer is a showcase proof-of-concept app for iOS to facilitate airline passenger claims for compensation under the EU regulation.
 
+## App Concept
+
+Main objective of the app:
+Allow users who travelled to or from EU destinations to generate prepared claim they can send to their airline.
+
+### App Flow Chart
+
+PoC logic flow char is presented here.
+
+![App Flow Chart](Complainer%20App%20FlowChart.png)
+
+### App Draft UI
+
+Draft UI prepared in Sketch and exported into Zeplin is presented below.
+
+[App Draft UI - PDF File](Complainer.pdf)
+
 # Getting Started
 1.	Installation process
 2.	Software dependencies
@@ -47,7 +64,9 @@ If any other error / http status or no data returned please display an error mes
 ## Sample response
 
 Below is the sample unabridged response from the API.
-
+<details>
+  <summary>Click to expand sample API response</summary>
+  
 ```
 [{
     "type": "departure",
@@ -6912,3 +6931,18 @@ Below is the sample unabridged response from the API.
     }
 }]
 ```
+</details>
+
+# Test Coverage
+
+## Unit Test
+
+Unit tests cover basic app logic and services.
+
+![Unit Tests Passing](Unit%20Tests%20Passing%20Screenshot%202022-06-24%20at%2020.01.22.png)
+
+## UI Tests
+
+UI Tests are work-in-progress level coverage of the "happy path" flow without validation of negative cases.
+
+![UI Tests](UI%20Test%20Passing%20Screenshot%202022-06-24%20at%2020.08.13.png)
