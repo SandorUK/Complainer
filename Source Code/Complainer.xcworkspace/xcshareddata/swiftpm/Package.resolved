@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swift-http",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/BinaryBirds/swift-http",
+      "state" : {
+        "revision" : "e2d170feb53892085d0efa008f81fa808f68b85f",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 2
+}

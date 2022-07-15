@@ -1,0 +1,61 @@
+"branding" = "Complainer";
+"whatHappened" = "What went wrong?";
+
+/*Fuzzy*/
+"origin" = "What was your airport of origin?";
+
+/*Fuzzy*/
+"destination" = "What was your destination airport?";
+"dateOfTravel" = "What was your date of travel?";
+
+/*Fuzzy*/
+"confirmFlight" = "Which one is your flight?";
+
+/*Fuzzy*/
+"flightNotFound" = "We couldn't find your flight.";
+"flightFound" = "We found this flights, which one was yours?";
+"whatHappened_flightCancelled" = "My flight was cancelled";
+"whatHappened_flightDelayed" = "My flight was delayed";
+"whatHappened_flightDeniedBoarding" = "I was denied boarding";
+"whatHappened_flightOverbooked" = "My flight was overbooked";
+"whatHappened_flightUpDowngraded" = "My flight booking was downgraded";
+"whatHappened_missedConnection" = "I missed a connecting flight";
+
+/*Fuzzy*/
+"whatHappened_luggageLost" = "My luggage is lost";
+"nonEUFlight" = "Your flight must be to or from an EU destination.";
+"contactDirectly" = "Contact your airline directly to file a claim.";
+"termsForEUFlight" = "EU air passenger rights apply:\n- If your flight is within the EU \n- If your flight arrives in the EU from outside the EU and is operated by an EU airline\n- If your flight departs from the EU to a non-EU country \n- If you have not already received benefits (compensation, re-routing, assistance from the airline) for flight yet";
+"firstName" = "First name";
+"lastName" = "Last Name";
+"phone" = "Phone";
+"bookingNumber" = "Booking Reference";
+"email" = "Email";
+"yourLuggage" = "Your Luggage";
+"yourLuggageHint" = "Example: 1 large blue carry-on, 2 small carry ons, 1 large grey suitcase";
+"whatHappened_luggageDelayed" = "My luggage is delayed";
+"whatHappened_luggageDamaged" = "My luggage is damaged";
+"email_header" = "Hello,\n\nMy name is %FIRSTNAME% %LASTNAME%. On %DATE% I was scheduled to travel with %AIRLINE% flight %FLIGHT_NUMBER% on a booking %BOOKING_NUMBER% from %ORIGIN_AIRPORT% to %DESTINATION_AIRPORT%.";
+"email_delay" = "The scheduled departure time of the flight was %SCHEDULED_DEPARTURE%. The actual departure time was %ACTUAL_DEPARTURE%. The flight was delayed for %DELAY_TIME% minutes.\n\nConsidering the flight distance %DISTANCE_KM% and the fact of delay of (%DELAY_TIMER_HOURS%) hours, ";
+"email_cancellation" = "The scheduled departure time of the flight was %SCHEDULED_DEPARTURE%. The flight has been cancelled.\nConsidering the flight distance %DISTANCE_KM% and the fact of cancellation,";
+"email_denied" = "The scheduled departure time of the flight was %SCHEDULED_DEPARTURE%. I was denied boarding of the flight and was unable to travel. Due to denied boarding,";
+"email_overbooking" = "The scheduled departure time of the flight was %SCHEDULED_DEPARTURE%. I was denied boarding of the flight due to overbooking and was unable to travel. Due to overbooked flight,";
+"email_luggage" = "It came to my attention that my luggage was %LUGGAGE_ISSUE%. My luggage items included %LUGGAGE_DESCRIPTION%. I am asking for your assistance to seek compensation and assistance for %LUGGAGE_ISSUE% luggage as soon as possible.";
+"email_paymentDemandEU" = "I am entitled to compensation under Regulation (EC) No 261/2004 of the European Parliament and of the Council of 11 February 2004 establishing common rules on compensation and assistance to passengers in the event of denied boarding and of cancellation or long delay of flights.\n\nPlease contact me to arrange the compensation payment.";
+"email_signature" = "Looking forward towards hearing from you,\n %FIRSTNAME% %LASTNAME%\n%PHONE%";
+"email_subject" = "Regarding %AIRLINE% flight %FLIGHT_NUMBER% on a booking %BOOKING_NUMBER%";
+"no_email_client" = "Unable to prepare your claim. You need to have a mail client installed on your device.";
+"flightNumber" = "Flight Number";
+"howToUse" = "Answer the questions to generate a claim for your flight or luggage. \n\nIn the end you will receive a neatly written claim you can submit to your airline.";
+"flightLookupFailed" = "We are sorry, something went wrong with flight lookup. Give it another try please!";
+"passengerDetails" = "Passenger Details";
+"passengerContactDetails" = "Contact Details";
+"start" = "Start";
+"searchBar" = "Searching...";
+"flight" = "Flight";
+"luggage" = "Luggage";
+"next" = "Next";
+
+/*Fuzzy*/
+"complete" = "Complete";
+"" = "";
